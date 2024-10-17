@@ -1,0 +1,55 @@
+.title {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+.flag {
+  text-align: center;
+}
+.guess {
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 45px;
+  text-align: center;
+  background-color: white;
+}
+.shuffle {
+  filter: blur(20px);
+}
+
+.feedback,
+.points {
+  font-family: "Roboto Mono", monospace;
+  color: rgb(18, 35, 101);
+}
+
+@media (max-width: 600px) {
+  .title {
+    text-align: center;
+    font-size: 80px;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+  }
+  .flag {
+    text-align: center;
+  }
+  .guess {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    background-color: white;
+  }
+  .shuffle {
+    filter: blur(20px);
+  }
+
+  .feedback,
+  .points {
+    font-family: "Roboto Mono", monospace;
+    color: rgb(18, 35, 101);
+  }
+}
